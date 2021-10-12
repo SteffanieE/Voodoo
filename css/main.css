@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif; 
+    color: #636363  ; 
+    margin: auto;
+    line-height: 1.5;
+    font-weight: 500;
+    max-width: 1000px;
+}
+/* ------------Header---------------*/
+
+header {
+    background-image: url(../images/header.png.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+}
+
+#header-logo {
+    width: 150px;
+    position: relative;
+    margin: auto;
+    top: 10%;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 0px;
+    padding: 5%;
+}
+
+/*-----------Main------------------*/
+
+.container-section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+/*---------Section1----------------*/
+.article1{
+    width: 100%;
+}
+
+.image-container{
+    width: 100%
+}
+
+.phone-img{
+    width: 100%;
+    object-fit: cover;
+}   
+
+/*------------Video---------------*/
+
+video{
+    width: 100%;
+}
+
+/*-----------Section2-------------*/
+
+.text-section2{
+    width: 100%;
+}
+
+/*----------Section3-------------*/
+
+.section3{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*----------Section4-------------*/
+
+.section4{
+    background-image: url("../images/Q1_newsletter-02.png");
+    background-size: cover;
+    min-height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4-div {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5%;
+    bottom: 5%;
+}
+
+.section4-h2 {
+    font-size: 2rem;
+}
+
+/*------------Footer------------*/
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 5%;
+}
+
+.footer-container{
+    width: 100%;
+}
+
+.footer-divar {
+    gap: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text-div-left {
+    width: 100%;
+}
+
+.text-div-right{
+    width: 100%;
+    text-align: center
+}
+
+/*---------------------------------------------------------*/
+
+@media screen and (min-width:500px){
+
+    header{
+        background-position-x: center;
+        height: 750px;
+    }
+
+    .header-text {
+        width: 70%;
+        text-align: right;
+        left: 10%;
+        padding: 0px;
+    }
+
+    .header-h1 {
+        margin-right: 10%;
+        font-size: 3rem;
+    }
+
+    .container-section {
+        flex-direction: row;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .image-container{
+        width: 50%;
+    }
+
+    .article1{
+        margin-top: 10%;
+        width: 50%;
+    }
+    
+    #section1 {
+        padding-left: 10%;
+    }
+
+    #section2{
+       padding-right: 10%;
+    }
+   
+    .text-section2{
+        width: 50%;
+        margin-top: 10%;
+        text-align: right;
+    }
+
+    .section3{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .section4-div{
+        width: 80%;
+    }
+
+    .footer-divar {
+        flex-direction: row;
+    }
+
+    .text-div-left {
+        width: 50%;
+    }
+    
+    .text-div-right{
+        width: 50%;
+        text-align: right;
+    }
+
+}
+
+/*---------------------------------------------------------*/
+
+@media screen and (min-width:800px){
+
+    .section4-h2{
+        font-size: 3rem;
+    }
+
+    footer{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+}
