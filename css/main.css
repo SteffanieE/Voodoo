@@ -63,7 +63,7 @@ video{
 
 /*-----------Section2-------------*/
 
-.text-section2{
+.article2{
     width: 100%;
 }
 
@@ -85,7 +85,7 @@ video{
     align-items: center;
 }
 
-.section4-div {
+.article4 {
     text-align: center;
     box-sizing: border-box;
     padding: 5%;
@@ -108,18 +108,18 @@ footer {
     width: 100%;
 }
 
-.footer-divar {
+.footer-section {
     gap: 15%;
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.text-div-left {
+.footer-article-left {
     width: 100%;
 }
 
-.text-div-right{
+.footer-article-right{
     width: 100%;
     text-align: center
 }
@@ -151,11 +151,11 @@ footer {
         padding-right: 0%;
     }
 
-    .image-container{
+    .image-container {
         width: 50%;
     }
 
-    .article1{
+    .article1 {
         margin-top: 10%;
         width: 50%;
     }
@@ -164,34 +164,43 @@ footer {
         padding-left: 10%;
     }
 
-    #section2{
+    #section2 {
        padding-right: 10%;
     }
    
-    .text-section2{
+    .article2 {
         width: 50%;
         margin-top: 10%;
         text-align: right;
     }
 
-    .section3{
+    .section3 {
         padding-left: 10%;
         padding-right: 10%;
     }
 
-    .section4-div{
+    .section4 {
+        min-height: 450px;
+    }
+
+    .article4 {
         width: 80%;
     }
 
-    .footer-divar {
+    footer{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .footer-section {
         flex-direction: row;
     }
 
-    .text-div-left {
+    .footer-article-left {
         width: 50%;
     }
     
-    .text-div-right{
+    .footer-article-right{
         width: 50%;
         text-align: right;
     }
@@ -202,13 +211,13 @@ footer {
 
 @media screen and (min-width:800px){
 
+    .section4{
+        min-height: 520px;
+    }
+
     .section4-h2{
         font-size: 3rem;
     }
 
-    footer{
-        padding-left: 10%;
-        padding-right: 10%;
-    }
 
 }
